@@ -20,5 +20,5 @@ When('User clicks Login button', async function () {
 Then('User should navigate to products page', async function () {
     const url = this.page.url();
     assert(url.includes('inventory'));
-    console.log("Login Successful");
+    console.log("Login Successfullyyyyyyy...");
 });
